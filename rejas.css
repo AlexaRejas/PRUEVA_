@@ -1,0 +1,18 @@
+.accordion__button {
+    background-color: #f92a2a;
+    font-family: arial;
+    color: #0f0e0e;
+    cursor: pointer;
+    padding: 12px;
+    width: 50%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: background-color 0.5s ease, padding 0.5s ease;
+  }
+  
+  .accordion__button.active, .accordion__button:hover {
+    background-color: #959090;
+    padding: 10px;
+  }
+  
